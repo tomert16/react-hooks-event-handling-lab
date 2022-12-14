@@ -1,8 +1,15 @@
 // Code Keypad Component Here
 
 function Keypad (){
+
+    function passChange(event){
+        console.log(`Entering password...`);
+    }
+
     return (
-        <div></div>
+        <div>
+            <input onChange={passChange} type="password"></input>
+        </div>
     )
 }
 
